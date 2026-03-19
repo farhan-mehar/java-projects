@@ -40,7 +40,7 @@ public class JavaApplication3 {
         int m3 = sc.nextInt();
 
         int total = m1 + m2 + m3;
-        double percentage = (total / 300.0) * 100.0;
+        double percentage = (total / 300.0);
         String grade = calculateGrade(percentage);
 
         System.out.println("\n----- Student Report -----");
